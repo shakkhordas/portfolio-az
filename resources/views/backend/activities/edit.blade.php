@@ -1,0 +1,33 @@
+<x-app-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+            {{ __('Edit Activity') }}
+        </h2>
+    </x-slot>
+
+    <div class="max-w-xl mx-auto mt-10 p-6 bg-white rounded-lg shadow">
+        <form action="{{ route('activities.update', $activity) }}" method="POST">
+            @csrf
+            @method('PUT')
+            <div class="mb-4">
+                <label for="online_judge" class="block text-sm font-medium mb-1">Online Judge</label>
+                <input type="text" id="online_judge" name="online_judge"
+                    class="w-full border rounded px-3 py-2 focus:outline-none focus:ring" value="{{ old('online_judge', $activity->online_judge) }}" required />
+            </div>
+            <div class="mb-4">
+                <label for="solve_count" class="block text-sm font-medium mb-1">Solve Count</label>
+                <input type="number" id="solve_count" name="solve_count" min="0"
+                    class="w-full border rounded px-3 py-2 focus:outline-none focus:ring" value="{{ old('solve_count', $activity->solve_count) }}" required />
+            </div>
+            <div class="mb-4">
+                <label for="profile_link" class="block text-sm font-medium mb-1">Profile Link</label>
+                <input type="url" id="profile_link" name="profile_link"
+                    class="w-full border rounded px-3 py-2 focus:outline-none focus:ring" value="{{ old('profile_link', $activity->profile_link) }}" />
+            </div>
+            <div class="flex gap-4">
+                <a href="{{ route('activities.index') }}" class="flex-1 bg-red-500 text-white py-2 rounded text-center hover:bg-red-600 transition">Back</a>
+                <button type="submit" class="flex-1 bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition">Update</button>
+            </div>
+        </form>
+    </div>
+</x-app-layout>
