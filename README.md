@@ -1,12 +1,12 @@
-# Sakhor Das Opi Portfolio
+# Abir Zaman Portfolio
 
-This is a personal portfolio web application for Sakhor Das Opi, built with Laravel, Tailwind CSS, and Vite. It showcases academic achievements, professional experience, research, skills, projects, and more, with a modern, responsive UI and dynamic backend.
+This is a personal portfolio web application for Abir Zaman, built with Laravel, Tailwind CSS, and Vite. It showcases academic achievements, professional experience, research, skills, projects, and more, with a modern, responsive UI and dynamic backend.
 
 ## Features
 
 - Responsive design for all devices
 - Sidebar navigation with smooth scrolling
-- Dynamic sections: About, Experience, Academics, Activities, Achievements, Research, Test Scores, Skills, Projects, Contact
+- Dynamic sections: About, Experience, Academics, Achievements, Research, Test Scores, Skills, Projects, Contact
 - Image carousel for photo gallery
 - Modals for detailed views (Experience, Academics, Research, Projects)
 - Blinking text and transitions for interactive UI
@@ -86,7 +86,7 @@ This is a personal portfolio web application for Sakhor Das Opi, built with Lara
 
 ## Credits
 
-- Built by Sakhor Das Opi
+- Built by Abir Zaman
 - Powered by Laravel, Tailwind CSS, Vite
 
 ## License
