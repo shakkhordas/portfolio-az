@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (prevBtn) prevBtn.addEventListener('click', prevSlide);
         if (nextBtn) nextBtn.addEventListener('click', nextSlide);
     });
-    setInterval(nextSlide, 4000);
+    setInterval(nextSlide, 7000);
     // Initial absolute positioning for carousel
     var carousel = document.getElementById('about-carousel');
     if (carousel) {

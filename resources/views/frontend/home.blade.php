@@ -122,13 +122,13 @@
                                             <img src="{{ asset($about->image) }}" alt="About Image" class="rounded-lg"
                                                 style="display: block; margin: 0 auto; height: auto; max-height: 100%; width: auto; max-width: 100%; background: #fff;" />
                                             <button type="button" id="about-prev"
-                                                class="absolute left-2 top-1/2 -translate-y-1/2 text-black rounded-full p-2 flex items-center justify-center"
+                                                class="absolute left-2 top-1/2 -translate-y-1/2 text-black rounded-full p-2 flex items-center justify-center bg-black bg-opacity-30"
                                                 style="z-index:2;">
                                                 <span
                                                     class="material-symbols-outlined text-6xl">keyboard_double_arrow_left</span>
                                             </button>
                                             <button type="button" id="about-next"
-                                                class="absolute right-2 top-1/2 -translate-y-1/2 text-black rounded-full p-2 flex items-center justify-center"
+                                                class="absolute right-2 top-1/2 -translate-y-1/2 text-black rounded-full p-2 flex items-center justify-center bg-black bg-opacity-30"
                                                 style="z-index:2;">
                                                 <span
                                                     class="material-symbols-outlined text-6xl">keyboard_double_arrow_right</span>
